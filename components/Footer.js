@@ -4,60 +4,57 @@ import React from 'react';
 export const Footer = () => {
     return (
         <footer className="border-t border-gray-200">
-            <div
-                className="
-                    container
-                    flex flex-col flex-wrap
-                    px-4
-                    py-16
-                    mx-auto
-                    md:items-center
-                    lg:items-start
-                    md:flex-row md:flex-nowrap
-                "
-            >
-                <div className="flex-shrink-0 w-64 mx-auto text-center md:text-left">
-                    <a className="
-                        flex
-                        items-center
-                        justify-center
-                        text-2xl
-                        font-bold
-                        text-red-500
-                        md:justify-start
-                        w:
-                        "
-                    >
-                        Mughal Print Store
-                    </a>
-                </div>
-                <div className="justify-between w-3/5 lg:flex">
-                    <div className="px-4 lg:w-3/6 md:w-1/2">
+            <div className="container flex flex-col flex-wrap px-4 py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
+                <div className="justify-between flex">
+                    <div className="px-4">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Openingstijden
                         </h2>
-                        Maandag:
-                            10.00 t/m 16.00 <br></br>
-                        Dinsdag:
-                            10.00 t/m 16.00 <br></br>
-                        Woensdag:
-                            10.00 t/m 16.00 <br></br>
-                        Donderdag:
-                            10.00 t/m 16.00 <br></br>
-                        Vrijdag:
-                            10.00 t/m 12.00 <br></br>
-                        Zaterdag:
-                            10.00 t/m 16.00 <br></br>
-                        Zondag:
-                            Gesloten 
+                        <table class="table-auto">
+                            <tbody>
+                                <tr>
+                                    <td>Maandag:</td>
+                                    <td>10.00 t/m 16.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dinsdag:</td>
+                                    <td>10.00 t/m 16.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Woensdag:</td>
+                                    <td>10.00 t/m 16.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Donderdag:</td>
+                                    <td>10.00 t/m 16.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Vrijdag:</td>
+                                    <td>10.00 t/m 12.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Zaterdag:</td>
+                                    <td>10.00 t/m 16.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Zondag:</td>
+                                    <td>Gesloten</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div className="px-4 lg:w-3/6 md:w-1/2">
+                    <div className="px-4">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Contact
                         </h2>
-                        <ul className="mb-8 space-y-2 text-sm list-none">
-                            
-                        </ul>
+                        Adres: Van Woustraat 222,<br></br>
+                        1073 NB, Amsterdam <br></br>
+
+                        Tel.: 020-777 92 92 <br></br>
+                        Mob.: 06-546 840 49 <br></br>
+
+                        Email: info@mughalprintstore.nl
+
                     </div>
                 </div>
             </div>
