@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav id="/" className="bg-white font-mono shadow-md sticky top-0 z-50">
+        <nav className="bg-white font-mono shadow-md sticky top-0 z-50">
             <div className="px-4 h-24 flex space-x-4 justify-between">
                 <div className="py-4 px-2">
                     <Link href="/" className="text-white">
@@ -24,7 +24,7 @@ const Navbar = () => {
                         {
                             MenuItems.map((navigate, id) => (
                                 <li key={id} className="py-4 px-2 text-black hover:text-red-700 font-medium">
-                                    <Link href={navigate.link} >
+                                    <Link href={navigate.link} onClick={closeMobileMenu}>
                                         {navigate.name}
                                     </Link>
                                 </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     {
                         MenuItems.map((navigate, id) => (
                             <li key={id} className="text-center hover:bg-gray-600 block text-lg px-2 py-4 text-black">
-                                <Link href={navigate.link} onClick={closeMobileMenu}>
+                                <Link href={navigate.link}>
                                     {navigate.name}
                                 </Link>
                             </li>
