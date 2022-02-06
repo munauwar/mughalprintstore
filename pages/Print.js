@@ -13,7 +13,7 @@ function print() {
             <div className="b-gray-100 overflow-y-hidden">
                 <div className="w-full flex flex-wrap">
                     <div className="relative rounded-lg w-full bg-gray-100 mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
-                        <div className="w-full lg:w-4/6 font-mono">
+                        <div className="w-full lg:w-3/6 font-mono">
                             <p className="text-3xl text-center text-red-500">Print</p>
 
                             <div className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base">
@@ -31,13 +31,13 @@ function print() {
 
                         </div>
 
-                        <div className="lg:w-2/6">
+                        <div className="lg:w-3/6">
                             <div className="relative text-center ml-5 mr-5 mt-14">
                                 <Image
                                     alt="home-image"
                                     src="/asset/images/slider2.jpg"
-                                    width={500}
-                                    height={250}
+                                    width={600}
+                                    height={450}
                                 />
                             </div>
                         </div>
