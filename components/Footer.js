@@ -4,9 +4,9 @@ import React from 'react';
 export const Footer = () => {
     return (
         <footer className="border-t border-gray-200">
-            <div className="container flex flex-col flex-wrap px-4 py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
-                <div className="justify-between flex">
-                    <div className="px-4">
+            <div className="container flex flex-col flex-wrap px-4 py-8 sm:py-16 md:py-16 lg:py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
+                <div className="justify-between flex flex-wrap">
+                    <div className="px-4 mt-4 sm:mt-0 md:mt-0 lg:mt-0">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Openingstijden
                         </h2>
@@ -43,7 +43,7 @@ export const Footer = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="px-4">
+                    <div className="px-4 mt-4 sm:mt-0 md:mt-0 lg:mt-0">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Contact
                         </h2>
@@ -58,8 +58,9 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center divide-red-700">
-                <div className="text-base">
+            <hr></hr>
+            <div className="flex justify-center">
+                <div className="text-base mb-4 text-center">
                     All rights reserved by @ Mughal Print Store {new Date().getFullYear()}
                 </div>
             </div>
