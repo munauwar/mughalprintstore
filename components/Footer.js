@@ -1,16 +1,16 @@
-import Head from 'next/head';
 import React from 'react';
+import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 
 export const Footer = () => {
     return (
         <footer className="border-t border-gray-200">
-            <div className="container flex flex-col flex-wrap px-4 py-8 sm:py-16 md:py-16 lg:py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
+            <div className="container flex-col flex-wrap px-4 py-8 sm:py-16 md:py-16 lg:py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
                 <div className="justify-between flex flex-wrap">
                     <div className="px-4 mt-4 sm:mt-0 md:mt-0 lg:mt-0">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Openingstijden
                         </h2>
-                        <table class="table-auto">
+                        <table className="table-auto">
                             <tbody>
                                 <tr>
                                     <td>Maandag:</td>
@@ -54,7 +54,10 @@ export const Footer = () => {
                         Mob.: 06-546 840 49 <br></br>
 
                         Email: info@mughalprintstore.nl
-
+                    </div>
+                    <div className="inline-flex mx-auto mt-5 md:mx-0">
+                        <a href="https://www.linkedin.com/in/mughal-print-store-10147118/"><FaLinkedinIn size={30} className="hover:text-red-500"/></a>
+                        <a href="https://www.facebook.com/mughalprintstore/?fref=ts"><FaFacebookF size={30} className="hover:text-red-500" /></a>
                     </div>
                 </div>
             </div>

@@ -30,6 +30,7 @@ function Contact() {
                                     <label className="block text-lg font-bold">Message</label>
                                     <textarea type="text" className="border-b-2 resize-none h-15 rounded bg-gray-100 border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
+                                <button className="py-3 px-3 w-1/5 hover:bg-red-500 rounded transition-all font-mono text-lg">Submit</button>
                             </form>
                         </div>
                     </div>
