@@ -22,10 +22,15 @@ function print() {
                                 Of het nou 10 A4-prints zijn of 1000 A3-prints, het is allemaal mogelijk en dat in de meeste gevallen ook binnen 1 werkdag!
 
                                 Klik op de onderstaande button voor de prijslijst.
-                                <button className="mb-12 bg-gray-300 hover:bg-red-600 text-gray-800 font-bold py-2 px-4 flex-wrap rounded inline-flex mt-5 float-right">
-                                    <svg className="fill-current w-4 h-4 mt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                                    <span>Download</span>
-                                </button>
+
+                                <a href="asset/Prijslijst_MUGHAL.pdf" target="_blank" download>
+                                    <button className="mb-12 bg-gray-300 hover:bg-red-600 text-gray-800 font-bold py-2 px-4 flex-wrap rounded inline-flex mt-5 float-right">
+                                        <svg className="fill-current w-4 h-4 mt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                                        <span>Download</span>
+                                    </button>
+                                </a>
+
+                                
                             </div>
 
 
