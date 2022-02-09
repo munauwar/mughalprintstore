@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-white font-mono shadow-md sticky top-0 z-50 dark:bg-neutral-900 transition duration-500">
+        <nav className="bg-white font-mono shadow-md sticky top-0 z-50 dark:bg-neutral-800 transition duration-500 dark:border-b-2 dark:border-zinc-800">
             <div className="px-4 h-24 flex space-x-4 justify-between">
                 <div className="py-4 px-2">
                     <Link href="/" className="text-white">

@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 
 export const Footer = () => {
     return (
-        <footer className="border-t border-gray-200 dark:bg-neutral-900 transition duration-500 dark:border-t-2 dark:border-black">
+        <footer className="border-t border-gray-200 dark:bg-neutral-800 transition duration-500 dark:border-t-2 dark:border-black">
             <div className="container flex-col flex-wrap px-4 py-8 sm:py-16 md:py-16 lg:py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
                 <div className="justify-between flex flex-wrap">
                     <div className="px-4 mt-4 sm:mt-0 md:mt-0 lg:mt-0">
