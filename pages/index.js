@@ -11,7 +11,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="py-8 bg-gray-100 overflow-y-hidden">
+            <div className="py-8 bg-gray-100 dark:bg-neutral-900 transition duration-500 overflow-y-hidden">
                 <div className="w-full px-6 text-center">
                     <div className="mt-8 relative rounded-lg bg-red-500 container mx-auto flex flex-col items-center pt-12 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
                         <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-10">

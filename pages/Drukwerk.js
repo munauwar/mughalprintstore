@@ -12,11 +12,11 @@ function Drukwerk() {
             </Head>
             <div className="b-gray-100 overflow-y-hidden">
                 <div className="w-full flex flex-wrap">
-                    <div className="relative rounded-lg w-full bg-gray-100 mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
+                    <div className="relative rounded-lg w-full bg-gray-100 mx-auto dark:bg-neutral-900 transition duration-500 dark:rounded-none lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
                         <div className="w-full lg:w-3/6 font-mono">
                             <p className="text-3xl text-center text-red-500">Drukwerk</p>
 
-                            <div className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base">
+                            <div className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base dark:text-white">
                             Ook met "drukken" zijn alle formaten mogelijk. Ten opzichte van "printen" is bij "drukken" wel een minimale afname vastgesteld. Drukken is aan te raden bij grotere oplages. 
                             De drukopdrachten nemen ongeveer 5-6 werkdagen in beslag, waar dit bij printopdrachten meestal binnen 1 werkdag klaar is.
 

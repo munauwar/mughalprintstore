@@ -10,27 +10,27 @@ function Contact() {
             </Head>
             <div className="b-gray-100 overflow-y-hidden">
                 <div className="w-full flex flex-wrap">
-                    <div className="relative rounded-lg w-full bg-gray-100 mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
-                        <div className="bg-gray-100 p-8 rounded shadow-2xl w-2/3 lg:w-1/2 mx-auto">
+                    <div className="relative rounded-lg w-full dark:bg-neutral-900 transition duration-500 dark:rounded-none bg-gray-100 mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
+                        <div className="bg-gray-100 p-16 rounded shadow-2xl w-2/3 lg:w-1/2 mx-auto dark:bg-neutral-900 transition duration-500 dark:shadow-none">
                             <h2 className="text-3xl font-bold text-red-500 text-center font-mono">Contact us.</h2>
                             <form>
                                 <div className="mt-5 mb-10">
-                                    <label className="block text-lg font-bold">What is your name</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 border-black bg-gray-1000 w-full focus:outline-none"/>
+                                    <label className="block text-lg font-bold dark:text-white">What is your name</label>
+                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none"/>
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold">Email</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label className="block text-lg font-bold dark:text-white">Email</label>
+                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold">Subject</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label className="block text-lg font-bold dark:text-white">Subject</label>
+                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold">Message</label>
-                                    <textarea type="text" className="border-b-2 resize-none h-15 rounded bg-gray-100 border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label className="block text-lg font-bold dark:text-white">Message</label>
+                                    <textarea type="text" className="border-b-2 resize-none h-15 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
-                                <button className="py-3 px-3 w-1/5 hover:bg-red-500 rounded transition-all font-mono text-lg">Submit</button>
+                                <button className="py-3 px-3 w-1/5 hover:bg-red-500 rounded transition-all float-right font-mono text-lg dark:text-white">Submit</button>
                             </form>
                         </div>
                     </div>
