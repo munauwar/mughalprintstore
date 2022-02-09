@@ -25,7 +25,7 @@ const Navbar = () => {
                     <ul className="flex">
                         {
                             MenuItems.map((navigate, id) => (
-                                <li key={id} className="py-4 px-2 text-black hover:text-red-700 font-medium dark:text-white transition duration-500">
+                                <li key={id} className="py-4 px-2 text-black hover:border-b-2 hover:border-red-500 font-medium dark:text-white transition duration-500">
                                     <Link href={navigate.link} onClick={closeMobileMenu}>
                                         {navigate.name}
                                     </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             ))
                         }
                     </ul>
-                    <span onClick={() => setTheme(colorTheme)}>
+                    <span onClick={() => setTheme(colorTheme)} className="cursor-pointer">
                         {colorTheme === "dark" ?
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
@@ -41,7 +41,7 @@ const Navbar = () => {
 
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                            </svg> }
+                            </svg>}
                     </span>
                 </div>
                 <div className="md:hidden flex items-center">
