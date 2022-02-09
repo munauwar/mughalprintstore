@@ -23,8 +23,8 @@ function Posters() {
                                     height={516}
                                 />
 
-                                <table class="table-auto mx-auto border-2 border-red-500 w-4/6">
-                                    <thead className="bg-red-500 opacity-80">
+                                <table class="table-auto mx-auto border-2 border-red-500 dark:text-white w-4/6">
+                                    <thead className="bg-red-500 opacity-80 dark:text-white">
                                         <tr>
                                             <th>Oplage</th>
                                             <th>A2</th>
@@ -66,9 +66,9 @@ function Posters() {
                                     height={516}
                                 />
 
-                                <table class="table-auto mx-auto border-2 border-red-500 w-4/6">
+                                <table class="table-auto mx-auto border-2 dark:text-white border-red-500 w-4/6">
                                     <thead>
-                                        <tr className="bg-red-500 opacity-80">
+                                        <tr className="bg-red-500 opacity-80 dark:text-white">
                                             <th>Oplage</th>
                                             <th>A2</th>
                                             <th>A1</th>
