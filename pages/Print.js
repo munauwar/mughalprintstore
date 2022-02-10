@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import { motion } from 'framer-motion';
 
 function print() {
     return (
@@ -15,7 +15,11 @@ function print() {
                     <div className="relative rounded-lg w-full bg-gray-100 dark:bg-neutral-900 dark:rounded-none transition mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
                         <div className="w-full lg:w-3/6 font-mono">
                             <p className="text-3xl text-center text-red-500">Print</p>
-                            <div className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base dark:text-white">
+                            <motion.div 
+                                initial={{x: 200, opacity: 0}}
+                                animate={{x: 0, opacity: 1}}
+                                transition={{delay: 0.2}}
+                                className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base dark:text-white">
                                 Wij helpen u graag met het tot stand brengen van al uw printopdrachten, in zowel klein- als grootformaat.
                                 De grootste voordeel van digitaal printen is dat er hierbij geen minimale afname is vastgesteld.
                                 Of het nou 10 A4-prints zijn of 1000 A3-prints, het is allemaal mogelijk en dat in de meeste gevallen ook binnen 1 werkdag!
@@ -28,7 +32,7 @@ function print() {
                                         <span>Download</span>
                                     </button>
                                 </a>                           
-                            </div>
+                            </motion.div>
                         </div>
 
                         <div className="lg:w-3/6">

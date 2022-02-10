@@ -17,7 +17,7 @@ function Posters() {
                             <p className="text-3xl text-center text-red-500">Lijntekeningen</p>
                             <div className="text-center mt-5">
                                 <Image
-                                    alt="home-image"
+                                    alt="lijn-poster"
                                     src="/asset/images/lijn.jpg"
                                     width={393}
                                     height={516}
@@ -60,7 +60,7 @@ function Posters() {
                             <p className="text-3xl text-center text-red-500 pt-11 lg:pt-0">Budget posters</p>
                             <div className="text-center mt-5">
                                 <Image
-                                    alt="home-image"
+                                    alt="budget-poster"
                                     src="/asset/images/budget.jpg"
                                     width={393}
                                     height={516}

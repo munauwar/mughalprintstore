@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 
+
 export const Footer = () => {
     return (
         <footer className="border-t border-gray-200 dark:bg-neutral-800 transition duration-500 dark:border-t-2 dark:border-black">

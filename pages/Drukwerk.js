@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 
 
 function Drukwerk() {
@@ -16,9 +17,13 @@ function Drukwerk() {
                         <div className="w-full lg:w-3/6 font-mono">
                             <p className="text-3xl text-center text-red-500">Drukwerk</p>
 
-                            <div className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base dark:text-white">
-                            Ook met "drukken" zijn alle formaten mogelijk. Ten opzichte van "printen" is bij "drukken" wel een minimale afname vastgesteld. Drukken is aan te raden bij grotere oplages. 
-                            De drukopdrachten nemen ongeveer 5-6 werkdagen in beslag, waar dit bij printopdrachten meestal binnen 1 werkdag klaar is.
+                            <motion.div 
+                                initial={{x: 200, opacity: 0}}
+                                animate={{x: 0, opacity: 1}}
+                                transition={{delay: 0.2}}
+                                className="w-11/12 lg:w-4/5 md:mx-auto mx-auto text-base dark:text-white">
+                                Ook met "drukken" zijn alle formaten mogelijk. Ten opzichte van "printen" is bij "drukken" wel een minimale afname vastgesteld. Drukken is aan te raden bij grotere oplages. 
+                                De drukopdrachten nemen ongeveer 5-6 werkdagen in beslag, waar dit bij printopdrachten meestal binnen 1 werkdag klaar is.
 
                                 Klik op de onderstaande button voor de prijslijst.
                                 <a href="asset/Prijslijst_MUGHAL.pdf" target="_blank" download>
@@ -27,7 +32,7 @@ function Drukwerk() {
                                         <span>Download</span>
                                     </button>
                                 </a>
-                            </div>
+                            </motion.div>
 
 
                         </div>

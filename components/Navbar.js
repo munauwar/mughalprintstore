@@ -57,7 +57,7 @@ const Navbar = () => {
                 <ul className="w-screen md:hidden">
                     {
                         MenuItems.map((navigate, id) => (
-                            <li key={id} className="text-center hover:bg-gray-600 block text-lg px-2 py-4 text-black">
+                            <li key={id} className="text-center hover:bg-gray-600 block text-lg px-2 py-4 text-black dark:text-white">
                                 <Link href={navigate.link}>
                                     {navigate.name}
                                 </Link>
