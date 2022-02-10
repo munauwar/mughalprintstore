@@ -26,7 +26,7 @@ const Navbar = () => {
                         {
                             MenuItems.map((navigate, id) => (
                                 <li key={id} className="py-4 px-2 text-black hover:border-b-2 hover:border-red-500 font-medium dark:text-white transition duration-500">
-                                    <Link href={navigate.link} onClick={closeMobileMenu}>
+                                    <Link href={navigate.link}>
                                         {navigate.name}
                                     </Link>
                                 </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <ul className="w-screen md:hidden">
                     {
                         MenuItems.map((navigate, id) => (
-                            <li key={id} className="text-center hover:bg-gray-600 block text-lg px-2 py-4 text-black dark:text-white">
+                            <li key={id} className="text-center hover:bg-gray-600 block text-lg px-2 py-4 text-black dark:text-white" onClick={closeMobileMenu}>
                                 <Link href={navigate.link}>
                                     {navigate.name}
                                 </Link>

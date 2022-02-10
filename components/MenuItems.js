@@ -4,6 +4,10 @@ export const MenuItems = [
         link: "/"
     },
     {
+        name: "Over ons",
+        link: "/Over-ons"
+    },
+    {
         name: "Print",
         link: "/Print"
     },
@@ -14,10 +18,6 @@ export const MenuItems = [
     {
         name: "Posters",
         link: "/Posters"
-    },
-    {
-        name: "Ontwerp Service",
-        link: "/Ontwerp"
     },
     {
         name: "Contact",

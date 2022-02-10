@@ -1,6 +1,12 @@
 import Head from 'next/head'
+import { useState } from 'react';
 
 function Contact() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+
     return (
         <>
             <Head>
@@ -15,20 +21,56 @@ function Contact() {
                             <h2 className="text-3xl font-bold text-red-500 text-center font-mono">Contact us.</h2>
                             <form>
                                 <div className="mt-5 mb-10">
-                                    <label className="block text-lg font-bold dark:text-white">What is your name</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none"/>
+                                    <label 
+                                        className="block text-lg font-bold dark:text-white">
+                                        What is your name
+                                    </label>
+                                    <input 
+                                        type="text"
+                                        value={name}
+                                        onChange={(e) => {
+                                            setName(e.target.value);
+                                        }} 
+                                        className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none"/>
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold dark:text-white">Email</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label 
+                                        className="block text-lg font-bold dark:text-white">
+                                            Email
+                                    </label>
+                                    <input 
+                                        type="text"
+                                        value={email}
+                                        onChange={(e) => {
+                                            setEmail(e.target.value);
+                                        }}
+                                        className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold dark:text-white">Subject</label>
-                                    <input type="text" className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label 
+                                        className="block text-lg font-bold dark:text-white">
+                                            Subject
+                                    </label>
+                                    <input
+                                        type="text"
+                                        value={subject}
+                                        onChange={(e) => {
+                                            setSubject(e.target.value);
+                                        }}
+                                        className="border-b-2 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
                                 <div className="mb-10">
-                                    <label className="block text-lg font-bold dark:text-white">Message</label>
-                                    <textarea type="text" className="border-b-2 resize-none h-15 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
+                                    <label 
+                                        className="block text-lg font-bold dark:text-white">
+                                            Message
+                                    </label>
+                                    <textarea 
+                                        type="text" 
+                                        value={message}
+                                        onChange={(e) => {
+                                            setMessage(e.target.message);
+                                        }}
+                                        className="border-b-2 resize-none h-15 rounded bg-gray-100 dark:bg-neutral-900 dark:text-white dark:border-white border-black bg-gray-1000 w-full focus:outline-none" />
                                 </div>
                                 <button className="py-3 px-3 w-9/12 md:w-1/5 lg:w-1/5 hover:bg-red-500 rounded transition-all float-right font-mono text-lg dark:text-white">Submit</button>
                             </form>
