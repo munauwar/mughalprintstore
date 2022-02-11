@@ -38,14 +38,17 @@ function Drukwerk() {
                         </div>
 
                         <div className="lg:w-3/6">
-                            <div className="relative text-center ml-5 mr-5 mt-14">
+                            <motion.div 
+                                initial={{y: 200, opacity: 0}} 
+                                animate={{y: 0, opacity: 1}}
+                                transition={{delay: 0.2}} className="relative text-center ml-5 mr-5 mt-14">
                                 <Image
                                     alt="home-image"
                                     src="/asset/images/slider3.jpg"
                                     width={600}
                                     height={450}
                                 />
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </div>

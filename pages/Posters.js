@@ -19,6 +19,7 @@ function Posters() {
                                 <Image
                                     alt="lijn-poster"
                                     src="/asset/images/lijn.jpg"
+                                    loading="eager"
                                     width={393}
                                     height={516}
                                 />
