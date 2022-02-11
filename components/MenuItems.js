@@ -5,7 +5,7 @@ export const MenuItems = [
     },
     {
         name: "Over ons",
-        link: "/Over-ons"
+        link: "/About"
     },
     {
         name: "Print",
