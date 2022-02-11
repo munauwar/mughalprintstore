@@ -17,7 +17,7 @@ function Contact() {
             <div className="b-gray-100 overflow-y-hidden">
                 <div className="w-full flex flex-wrap">
                     <div className="relative rounded-lg w-full dark:bg-neutral-900 transition duration-500 dark:rounded-none bg-gray-100 mx-auto lg:flex md:flex-wrap items-center pt-12 sm:pt-24 pb-12 lg:pb-24">
-                        <div className="bg-gray-100 p-16 rounded shadow-2xl w-2/3 lg:w-1/2 mx-auto dark:bg-neutral-900 transition duration-500 dark:shadow-black">
+                        <div className="bg-gray-100 p-16 rounded shadow-2xl w-11/12 lg:w-1/2 mx-auto dark:bg-neutral-900 transition duration-500 dark:shadow-black">
                             <h2 className="text-3xl font-bold text-red-500 text-center font-mono">Contact us.</h2>
                             <form>
                                 <div className="mt-5 mb-10">

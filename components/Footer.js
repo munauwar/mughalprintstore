@@ -56,7 +56,7 @@ export const Footer = () => {
 
                         Email: info@mughalprintstore.nl
                     </div>
-                    <div className="inline-flex mx-auto mt-5 md:mx-0 dark:text-white">
+                    <div className="inline-flex mx-auto mt-5 md:mx-0 h-1 dark:text-white">
                         <a href="https://www.linkedin.com/in/mughal-print-store-10147118/"><FaLinkedinIn size={30} className="hover:text-red-500"/></a>
                         <a href="https://www.facebook.com/mughalprintstore/?fref=ts"><FaFacebookF size={30} className="hover:text-red-500" /></a>
                     </div>

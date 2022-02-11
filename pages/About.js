@@ -33,7 +33,7 @@ function Posters() {
                                 transition={{delay: 0.2}}
                                 className="text-center mt-5">
                                 <Image
-                                    alt="home-image"
+                                    alt="about-image"
                                     src="/asset/images/mughalprintstore.jpeg"
                                     priority={true}
                                     width={350}
