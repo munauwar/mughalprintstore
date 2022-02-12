@@ -5,22 +5,22 @@ export const MenuItems = [
     },
     {
         name: "Over ons",
-        link: "/About"
+        link: "/over-ons"
     },
     {
         name: "Print",
-        link: "/Print"
+        link: "/print"
     },
     {
         name: "Drukwerk",
-        link: "/Drukwerk"
+        link: "/drukwerk"
     },
     {
         name: "Posters",
-        link: "/Posters"
+        link: "/posters"
     },
     {
         name: "Contact",
-        link: "/Contact"
+        link: "/contact"
     }
 ]

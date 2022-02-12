@@ -63,7 +63,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-center border-t dark:border-black pt-2 dark:text-white">
-                <div className="text-base mb-4 text-center">
+                <div className="text-xs mb-4">
                     All rights reserved by @ Mughal Print Store {new Date().getFullYear()}
                 </div>
             </div>
