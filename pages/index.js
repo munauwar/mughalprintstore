@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
+import Card from '../components/Card';
 
 export default function Home() {
     return (
@@ -46,28 +47,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="w-96 py-8 px-6 text-center font-mono">
-                    <div class="rounded overflow-hidden shadow-lg">
-                        <img class="w-full" src="asset/images/preview.jpg" alt="Sunset in the mountains"/>
-                            <div class="px-6 py-4">
-                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p class="text-gray-700 text-base">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                                </p>
-                            </div>
-                    </div>
-                </div>
-
-                <div className="w-96 py-8 px-6 text-center bg-repeat-x font-mono">
-                    <div class="rounded overflow-hidden shadow-lg">
-                        <img class="w-full" src="asset/images/flyers.jpg" alt="Sunset in the mountains"/>
-                            <div class="px-6 py-4">
-                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p class="text-gray-700 text-base">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                                </p>
-                            </div>
-                    </div>
+                <div className="container mx-auto flex">
+                    <Card />
                 </div>
             </div>
         </div>
