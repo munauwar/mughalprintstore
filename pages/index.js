@@ -39,12 +39,17 @@ export default function Home() {
                             <Image
                                 alt="home-image"
                                 src="/asset/images/slider1.jpg"
-                                priority={true}
+                                loading='eager'
                                 width={900}
                                 height={500}
                             />
                         </motion.div>
                     </div>
+                </div>
+
+                <div className="container mx-auto mt-20">
+                    <img src="/asset/images/line.png" alt="" style={{backgroundRepeat: "left right repeat-x"}}/>
+                    <h2 className="text-xl text-center ">Populaire Producten</h2>
                 </div>
 
                 <div className="container mx-auto flex">

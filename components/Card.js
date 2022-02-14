@@ -2,7 +2,7 @@ import CardItems from "./CardItems"
 
 function Card() {
     return (
-        <div className="flex flex-col mx-auto">
+        <div className="flex flex-wrap">
             <CardItems
                 img="asset/images/preview.jpg"
                 title="Visitekaartjes"

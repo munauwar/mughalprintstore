@@ -1,7 +1,7 @@
 function CardItems(props) {
     return (
-        <div className="container mx-auto flex justify-center">
-            <div className="w-96 py-8 px-6 text-center font-mono">
+        <div className="mx-auto flex flex-row max-w-full">
+            <div className="sm:w-96 py-8 px-6 text-center font-mono">
                 <div className="h-full rounded overflow-hidden shadow-lg border-b-2 border-b-red-500 dark:shadow-black">
                     <img className="w-full" src={props.img} alt="visitekaartjes" />
                     <div className="px-6 py-4">

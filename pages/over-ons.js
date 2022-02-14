@@ -35,7 +35,7 @@ function Posters() {
                                 <Image
                                     alt="about-image"
                                     src="/asset/images/mughalprintstore.jpeg"
-                                    priority={true}
+                                    loading='eager'
                                     width={350}
                                     height={500}
                                 />  
