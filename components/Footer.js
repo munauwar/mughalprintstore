@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className="border-t border-gray-200 dark:bg-neutral-800 transition duration-500 dark:border-t-2 dark:border-black">
             <div className="container flex-col flex-wrap px-4 py-8 sm:py-16 md:py-16 lg:py-16 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
-                <div className="justify-between flex flex-wrap">
+                <div className="flex flex-wrap">
                     <div className="px-4 mt-4 sm:mt-0 md:mt-0 lg:mt-0">
                         <h2 className="mb-2 font-bold tracking-widest text-red-500">
                             Openingstijden
@@ -56,13 +56,13 @@ export const Footer = () => {
 
                         Email: info@mughalprintstore.nl
                     </div>
-                    <div className="inline-flex mx-auto mt-5 md:mx-0 h-1 dark:text-white">
+                    <div className="inline-flex mx-auto mt-5 md:mr-0 h-9 dark:text-white">
                         <a href="https://www.linkedin.com/in/mughal-print-store-10147118/"><FaLinkedinIn size={30} className="hover:text-red-500"/></a>
                         <a href="https://www.facebook.com/mughalprintstore/?fref=ts"><FaFacebookF size={30} className="hover:text-red-500" /></a>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center border-t dark:border-black pt-2 dark:text-white">
+            <div className="flex justify-center border-t-2 dark:border-black border-dashed pt-2 dark:text-white">
                 <div className="text-xs mb-4">
                     All rights reserved by @ Mughal Print Store {new Date().getFullYear()}
                 </div>

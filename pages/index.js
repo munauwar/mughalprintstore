@@ -47,9 +47,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="container mx-auto mt-20">
-                    <img src="/asset/images/line.png" alt="" style={{backgroundRepeat: "left right repeat-x"}}/>
-                    <h2 className="text-xl text-center ">Populaire Producten</h2>
+                <div className="container mx-auto mt-20 border-b-2 border-dashed border-red-500">
+                    <img src="/asset/images/line.png" alt="" />
+                    <h2 className="text-2xl text-center font-mono dark:text-white mb-4">Populaire Producten</h2>
                 </div>
 
                 <div className="container mx-auto flex">
